@@ -1,0 +1,133 @@
+body{padding:0;}
+.topBar{height:30px;background-color:#263683;padding-top:4px;padding-right:12%;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.topBar ul{float:right;color:white;}
+.topBar li{display:inline-block;border-right-style:solid;border-right-width:2px;border-right-color:white;padding-right:10px;padding-left:5px;}
+.topBar li:last-child{border-right-style:none;border-right-width:none;border-right-color:none;}
+.topBar a{text-decoration:none;color:white;font-size:14px;}
+.topBar a:hover{color:white;}
+.menuBar{height:85px;padding-left:10%;box-shadow:0.5px 0.5px 3px 0.5px #B9B9B9;background-color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;width:99.7%;}
+#menuLogo{display:none;}
+#textoLink1:hover{background-color:#263683;border-radius:50px 0 0 50px;color:white;}
+#textoLink:hover{background-color:#263683;color:white;}
+#textoLink1{color:#263683;font-size:13px;border-right:1px inset #BDBDBD;}
+#textoLink{color:#263683;border-right:1px inset #BDBDBD;}
+#conteudoMenu{margin-top:8px;border-radius:50px 0 0 50px;float:right;width:80%;}
+#btnDescer{opacity:0.5;border-color:#263683;width:50px;height:45px;color:white;font-size:20px;border-radius:100%;margin-left:46%;position:absolute;z-index:100000;background-color:#263683;transition:1s;}
+#btnDescer:hover{opacity:1;background-color:#afb517;color:#263683; border-color: #afb157;}
+.rotativodigi, .produtos, .timob, .clientes, .noticias, .usuario, .municipio, .contato, .funciona{cursor:pointer;}
+.preItem{padding-left:0%;padding-right:10%;padding-top:50px;padding-bottom: 70px;color:#263683;text-align:justify;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+#cidadeInteligente{width: 100%;}
+h4#texto{margin-top:50px;margin-bottom:50px;}
+#fundoCidade{width:100%;height:150px;position:absolute;opacity:0.2;margin-top:370px;}
+#conheca{background-color:#263683;color:white;border-radius: 20px;}
+#btnProximo{font-size:25px; cursor:pointer;}
+.item1{padding-bottom:100px;padding-top: 200px;color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item1 h1{font-size:40px;}
+.item1 h4{font-size:22px;padding-top:40px;padding-left:10%;padding-right:10%}
+#fundoRotativo{position:absolute;width:35%;opacity:1;margin-top:12%;margin-left:9%;}
+#imgRot{margin-bottom: 50px;}
+.item2{padding-left:10%;padding-top:100px;padding-bottom:100px;padding-right:10%;background-color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item2 h2{color:white;margin-bottom:50px;}
+.item2 h5{color:white;}
+.item2 h3{margin-top:60px;color:white;font-size:30px;}
+#quest{float:left;margin-top:15px;margin-right:8px;}
+#logoRotativo{margin-top: 60px;}
+.item3{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;color:#263683;}
+.item3 h5{text-align:center;}
+.item3 h6{text-align:center;padding-left:20%;padding-right:20%;}
+.item3 img{width:100%;}
+.imgContainer{width:200px;height:200px; }
+.item4{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;background-color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item4 h2{color:white;}
+.item4 h5{text-align:center;color:white;}
+.item4 h6{text-align:center;padding-left:20%;padding-right:20%;color:white;}
+.item4 img{height:100%;}
+.item5{padding-top:40px;padding-bottom:40px;padding-left:10%;padding-right:10%;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item5 .row{margin-top:30px;}
+.item5 a{text-decoration:none;}
+.item5 h4{font-size:14px;color:#263683;}
+.item5 h1{font-size:28px;color:#263683;}
+.item5 img{width:60%;opacity:0.7;transition:1s;}
+.item5 img:hover{opacity:1;}
+.itemBarra{height:80px;background-color:#263683;padding-left:12%;padding-right:12%;color:white;padding-top:7px;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.itemBarra h3{float:left;}
+.itemBarra button{margin-top:10px;margin-left:25px;}
+.item6{padding-top:100px;padding-bottom:180px;background-color:white;color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.item6 img{position:absolute;width:15%;opacity:1;margin-top:4%;margin-left:85%;}
+.item6 h3{margin-bottom:60px;font-size:31px;text-align:center;}
+.item6 h4{margin-top:30px;text-align:justify;}
+#conteudoTexto{padding-left:10%;padding-right:22%;}
+.item7{padding-left:10%;padding-right:10%;padding-top:100px;padding-bottom:100px;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.item7 h2{color:#263683; margin-bottom: 30px;}
+.item7 h3{margin-bottom:50px;}
+.item7 h5{overflow-y:scroll;}
+.item7 img{width:80%;box-shadow:2px 2px 2px 2px #B9B9B9;}
+.item7 a{text-decoration:none;}
+.item7 button{margin-bottom:50px;}
+.item8{background-color:#263683;padding-left:8%;padding-right:8%;padding-top:20px;padding-bottom:20px;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;background-image: url("http://localhost:8080/AptanaWS/timob/includes/imgs/app/cidadefundo.jpg");background-size: 100% 100%;background-repeat: no-repeat;background-attachment: fixed;}
+.item8 h2{color:white;margin-bottom:50px;border:2px solid black;background-color:black;border-radius:20px;opacity:1;}
+.item8 h3{color:white;font-size:20px;}
+.item8 h4{color:white;font-size:30px;}
+.item8 img{border:8px solid white;border-radius:100px;padding-left:15px;padding-right:15px;padding-bottom:15px;padding-top:15px;margin-bottom:40px;width:120px;height:120px;transition:1s;}
+.item8 img:hover{padding-left:0px;padding-right:0px;padding-bottom:0px;padding-top:0px;}
+.item8 a{text-decoration:none;}
+.titutloCliente{width:100%;height:40px;}
+.imgClientes{margin-top:5px;}
+.itemMensagem{padding-left:10%;padding-right:10%;padding-top:20px;padding-bottom:40px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:#263683;}
+#txtMensagemCell{display:none;}
+.itemMensagem img{width:350px;margin-top:100px;}
+.itemMensagem textarea{height:100px;}
+.item9{background-color:#222222;padding-left:10%;padding-right:10%;padding-top:5px;padding-bottom:5px;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:left;}
+.item9 img{width:60%;margin-top: 60px;}
+.item9 h5{color:white;}
+.item9 h4{color:white;}
+#imgLocalizacao{margin-left: 50px; margin-top: 0px; cursor: pointer;}
+.item10{background-color:#263683;padding-left:10%;padding-right:10%;padding-top:10px;padding-bottom:10px;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.item10 h5{color:white;}
+.item10 h6{color:white;float:right;font-size:17px;}
+.item10 a{text-decoration:none;color:white;float:right;font-size:20px;margin-top:10px;}
+@media (min-width:200px) and (max-width:424px){
+#menuLogo{font-size:10px;}
+.itemBarra{height:200px;}
+}
+@media (min-width:425px) and (max-width:1118px){.itemBarra{height:150px;}
+}
+@media (max-width:240px){#menuLogo{font-size:8px;}
+}
+@media (min-width:200px) and (max-width:600px){#txtMensagemDiv{display:none;}
+#txtMensagemCell{display:block;}
+.itemBarra h3{font-size:20px;}
+.item7 h2{text-align:center;}
+}
+@media (min-width:200px) and (max-width:1119px){#menuScroll{overflow-y:scroll}
+#imgLocalizacao{margin-left: 0px;}
+#btnDescer{display:none;}
+.topBar{display:none;}
+.menuBar{height:65px;padding-left:0%;box-shadow:0.5px 0.5px 3px 0.5px #B9B9B9;position:absolute;z-index:1000;width:100%;}
+.item6 img{width:40%;margin-left:50%;margin-top:50%;opacity:0.4;}
+#menuLogo{display:block;}
+#imgLogoFull{display:none;}
+#textoLink1:hover{background-color:#263683;border-radius:0;color:white;}
+#textoLink:hover{background-color:#263683;color:white;}
+#textoLink1{color:black;}
+#textoLink{color:black;}
+#conteudoMenu{margin-top:5px;border-radius:0px 0 0 0px;width:100%;float:none;}
+.slider{margin-top:0px;}
+.preItem{margin-top:20px;}
+.item1{padding-left:1%;padding-right:1%;padding-top:0px;}
+.item1 h4{padding-left:5%;padding-right:5%;}
+.item2{padding-left:5%;padding-right:5%;padding-top: 20px;padding-bottom: 20px;}
+.item2 h3{margin-top:0px;}
+#quest{margin-top:0px;}
+.item3{padding-top:20px;padding-bottom:20px;}
+.item4{padding-top:20px;padding-bottom:20px;}
+.item5{padding-top:20px;padding-bottom:20px;}
+.item6{padding-left:5%;padding-right:5%;padding-top:20px;padding-bottom:20px;}
+.item7{padding-top:20px;padding-bottom:20px;}
+.item8{padding-top:20px;padding-bottom:20px;background-size: 100% 50%;background-repeat: repeat;background-attachment: none;}
+.itemBarra{padding-left:1%;padding-right:1%;padding-top:0px;}
+.itemBarra button{margin-left:0;margin-top:0;}
+.itemMensagem{padding-left:1%;padding-right:1%;}
+}
+@media (min-width:500px) and (max-width:1119px){.item6 img{width:30%;margin-left:60%;margin-top:0%;opacity:0.4;}
+}
