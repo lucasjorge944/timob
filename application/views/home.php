@@ -21,11 +21,8 @@
 		<link href="<?php echo base_url('includes/bootstrap/smartmenu/jquery.smartmenus.bootstrap.css'); ?>" rel="stylesheet">
 		<!-- Estilos -->
 		<link rel="stylesheet" href="<?php echo base_url('includes/css/estilos.css'); ?>">
-		<style type="text/css">
-			.item8{
-				
-			}
-		</style>
+		<!-- Font -->
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('includes/webfontkit/stylesheet.css'); ?>">
 	</head>
 	<body onscroll="functionMenu()">
 		<div class="slider">
@@ -90,24 +87,24 @@
 			  				<span class="icon-bar"></span>
 			  				<span class="icon-bar"></span>
 			  			</button>
-			  			<a id="menuLogo" class="navbar-brand" href="<?php echo base_url(); ?>"><strong><span style="color: #afb517">ti.</span><span style="color: #263683">mob</span> <span style="color: black;">- Tecnologia e Mobilidade</span></strong> </a>
+			  			<a id="menuLogo" class="navbar-brand" href="<?php echo base_url(); ?>"><span id="bold"><span style="color: #afb517">ti.</span><span style="color: #263683">mob</span> <span style="color: black;">- Tecnologia e Mobilidade</span></span> </a>
 			  		</div>
 			  		<div class="navbar-collapse collapse">
 			  			<!-- Left nav -->
 			  			<ul class="nav navbar-nav">
-			  				<li><a id="textoLink1" onclick="scrollToDiv()"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span><strong> ROTATIVO DIGITAL</strong></a>
+			  				<li><a id="textoLink1" onclick="scrollToDiv()"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span><span id="bold"> ROTATIVO DIGITAL</span></a>
 			  					<ul class="dropdown-menu">		
 			  						<li><a class="rotativodigi"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Sobre o produto</a></li>
 			  						<li><a class="funciona"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Como Funciona</a></li>
-			  			</strong>			<li><a class="usuario"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Vantagens</a></li>
+			  			</span>			<li><a class="usuario"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Vantagens</a></li>
 			  					</ul>
 			  				</li>
 			  				<li><a style="display: none;" id="textoLink" href="#">ERRO!</a></li>
-			  				<li><a id="textoLink" class="produtos"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><strong> PRODUTOS</strong></a></li>
-			  				<li><a id="textoLink" class="timob"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><strong> TI.MOB</strong></a></li>
-			  				<li><a id="textoLink" class="clientes"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><strong> CLIENTES</strong></a></li>
-			  				<li><a id="textoLink" class="noticias"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><strong> NOTÍCIAS</strong></a></li>
-			  				<li><a id="textoLink" class="contato"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><strong> FALE CONOSCO</strong></a></li>
+			  				<li><a id="textoLink" class="produtos"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span id="bold"> PRODUTOS</span></a></li>
+			  				<li><a id="textoLink" class="timob"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span id="bold"> TI.MOB</span></a></li>
+			  				<li><a id="textoLink" class="clientes"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span id="bold"> CLIENTES</span></a></li>
+			  				<li><a id="textoLink" class="noticias"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span id="bold"> NOTÍCIAS</span></a></li>
+			  				<li><a id="textoLink" class="contato"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><span id="bold"> FALE CONOSCO</span></a></li>
 			  			</ul>
 			  		</div><!--/.nav-collapse -->
 			  	</div>
@@ -121,12 +118,12 @@
 						<img id="cidadeInteligente" src="<?php echo base_url('includes/imgs/app/cidadeinteligente.png'); ?>" alt="inteligente">
 					</div>
 					<div class="col-md-8">
-						<center><h1><strong>TECNOLOGIA E MOBILIDADE<br> A SERVIÇO DO CIDADAO!</strong></h1></center>
-						<h3 style="margin-top:50px;"><strong>#POR UM MUNDO EM <span style="color:#afb157;">MOVIMENTO</span></strong></h3>
+						<center><h1><span id="bold">TECNOLOGIA E MOBILIDADE<br> A SERVIÇO DO CIDADAO!</span></h1></center>
+						<h3 style="margin-top:50px;"><span id="bold">#POR UM MUNDO EM <span style="color:#afb157;">MOVIMENTO</span></span></h3>
 						<h4 style="margin-top:30px;">As soluções mais modernas para estacionamento público ou privado você encontra aqui.</h4>
 						<h4 style="margin-top:30px;">São produtos e serviços desenvolvidos com alta tecnologia, sem perder o foco na simplicidade e usabilidade.</h4>
 						<h4 style="margin-top:30px;">Junte-se a nós na criação de um mundo muito mais móvel!</h4>
-						<center><div style="padding-left:20%;padding-right:20%;"><h4 id="conheca" style="margin-top:60px;"><strong>CONHEÇA NOSSOS PRODUTOS E SERVIÇOS</strong></h4></div></center>
+						<center><div style="padding-left:20%;padding-right:20%;"><h4 id="conheca" style="margin-top:60px;"><span id="bold">CONHEÇA NOSSOS PRODUTOS E SERVIÇOS</span></h4></div></center>
 						<center><span id="btnProximo" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></center>
 					</div>
 				</div>
@@ -136,16 +133,16 @@
 			<div class="row">
 			  <img id="imgRot" src="<?php echo base_url('includes/imgs/slider/banner4.jpg'); ?>" alt="..." class="img-responsive">
 			  	<h4>
-			  		O <strong>Estacionamento Rotativo</strong> aumenta a oferta de vagas nas regiões de grande concentração de comércio, serviços e lazer, oferecendo aos motoristas mais oportunidades de estacionamento, contribuindo assim para melhorar a qualidade de vida, através do aumento da fluidez do trânsito. Trata-se de um instrumento de política urbana adequado à melhoria da circulação na via e à democratização do uso de espaços públicos. 
+			  		O <span id="bold">Estacionamento Rotativo</span> aumenta a oferta de vagas nas regiões de grande concentração de comércio, serviços e lazer, oferecendo aos motoristas mais oportunidades de estacionamento, contribuindo assim para melhorar a qualidade de vida, através do aumento da fluidez do trânsito. Trata-se de um instrumento de política urbana adequado à melhoria da circulação na via e à democratização do uso de espaços públicos. 
 			  	</h4>
 			  	<h4>
-			  		A partir de ABRIL de 2015, municípios acima de <strong>20 MIL Habitantes</strong> deverão se adequar ao <strong>Plano Nacional de Mobilidade Urbana</strong>. A operação e gestão de estacionamento público é uma das obrigações. 
+			  		A partir de ABRIL de 2015, municípios acima de <span id="bold">20 MIL Habitantes</span> deverão se adequar ao <span id="bold">Plano Nacional de Mobilidade Urbana</span>. A operação e gestão de estacionamento público é uma das obrigações. 
 			  	</h4>
 			  	<h4>
-			  		A <strong>TI.MOB</strong> possui o sistema mais moderno do Brasil para gestão e controle de Estacionamento Rotativo. 
+			  		A <span id="bold">TI.MOB</span> possui o sistema mais moderno do Brasil para gestão e controle de Estacionamento Rotativo. 
 			  	</h4>
 			  	<h4>
-			  		<strong>Veja como funciona:</strong>
+			  		<span id="bold">Veja como funciona:</span>
 			  	</h4>
 			</div>			
 		</div>
@@ -154,7 +151,7 @@
 			  <div class="col-md-6">
 			  	<img id="quest" src="<?php echo base_url('includes/imgs/app/quest.png'); ?>" alt="quest">
 			  	<h2>
-			 		<strong>COMO FUNCIONA:</strong>
+			 		<span id="bold">COMO FUNCIONA:</span>
 				</h2>
 				<iframe width="100%" height="315px"
 				src="https://www.youtube.com/embed/XGSy3_Czz8k">
@@ -170,23 +167,23 @@
 		</div>
 		<div id="vantagensusu" class="item3">
 			<h2>
-				<strong>VANTAGENS PARA O USUÁRIO: </strong>
+				<span id="bold">VANTAGENS PARA O USUÁRIO: </span>
 			</h2>
 			<div class="row">
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>PONTOS DE VENDA PRÉ-HABILITADOS</strong></h5>
+			  	<h5><span id="bold">PONTOS DE VENDA PRÉ-HABILITADOS</span></h5>
 				<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/pdv.png'); ?>" alt="..."></div></center>
 				<h5>A TI.MOB possui mais de 500 mil pontos de venda pré-habilitados em todo Brasil, para vender créditos do rotativo.
 				</h5>			
 			  </div>
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>APLICATIVO SMARTPHONE</strong></h5>
+			  	<h5><span id="bold">APLICATIVO SMARTPHONE</span></h5>
 				<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/app.png'); ?>" alt="..." ></div></center>
 				<h5>Atraves do app localize vagas disponiveis, pontos de vendas mais proximos. Voce ainda pode comprar creditos e gerenciar saldos.
 				</h5>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>COMODIDADE E FACILIDADE</strong></h5>
+			  	<h5><span id="bold">COMODIDADE E FACILIDADE</span></h5>
 			  	<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/pos.png'); ?>" alt="..."></div></center>
 				<h5>Compre créditos pagando em dinheiro nas máquinas P.O.S instaladas nos PDV's.
 				</h5>
@@ -195,23 +192,23 @@
 		</div>
 		<div id="vantagensmuni" class="item4">
 			<h2>
-				<strong>VANTAGENS PARA O MUNICÍPIO: </strong>
+				<span id="bold">VANTAGENS PARA O MUNICÍPIO: </span>
 			</h2>
 			<div class="row">
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>INFORMAÇÕES EM TEMPO REAL</strong></h5>
+			  	<h5><span id="bold">INFORMAÇÕES EM TEMPO REAL</span></h5>
 				<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/info.png'); ?>" alt="..."></div></center>
 				<h5>Informações otimizadas e em tempo real <br>  de toda operação.
 				</h5>			
 			  </div>
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>FISCALIZAÇÃO INFORMATIZADA</strong></h5>
+			  	<h5><span id="bold">FISCALIZAÇÃO INFORMATIZADA</span></h5>
 				<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/guarda.png'); ?>" alt="..." ></div></center>
 				<h5>Através do aplicativo TI.MOB instalado no smartphone, o fiscal controla os veículos estacionados, autuando automaticamente aqueles que estiverem irregular.
 				</h5>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 30px;">
-			  	<h5><strong>GESTÃO E CONTROLE DE EQUIPE</strong></h5>
+			  	<h5><span id="bold">GESTÃO E CONTROLE DE EQUIPE</span></h5>
 			  	<center><div class="imgContainer"><img src="<?php echo base_url('includes/imgs/app/equipe3.png'); ?>" alt="..."></div></center>
 				<h5>Acompanhe em tempo real a produtividade da sua equipe: quantidade de veículos fiscalizados, rota percorrida, localização geográfica entre outras informações.
 				</h5>
@@ -219,43 +216,43 @@
 			</div>
 		</div>
 		<div id="produtos" class="item5">
-			<center><h1><strong>OUTROS PRODUTOS E SERVIÇOS</strong></h1></center>
+			<center><h1><span id="bold">OUTROS PRODUTOS E SERVIÇOS</span></h1></center>
 		
-			<center><h4><strong>CONHEÇA NOSSAS SOLUÇÕES INTELIGENTES QUE IRÃO TRANSFORMAR SUA VIDA!</strong></h4></center>
+			<center><h4><span id="bold">CONHEÇA NOSSAS SOLUÇÕES INTELIGENTES QUE IRÃO TRANSFORMAR SUA VIDA!</span></h4></center>
 			<div class="row">
 			  <div class="col-md-4" style="margin-top: 5px;">
 			  	<center>
-			  		<a><h4><strong>SOLUÇÕES PARA<br>ESTACIONAMENTO PRIVADO</strong></h4>
+			  		<a><h4><span id="bold">SOLUÇÕES PARA<br>ESTACIONAMENTO PRIVADO</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto5.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 5px;">
 			  	<center>
-			  		<a><h4><strong>APP PARA PAGAMENTO DE ESTACIONAMENTOS</strong></h4>
+			  		<a><h4><span id="bold">APP PARA PAGAMENTO DE ESTACIONAMENTOS</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto4.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 5px;">
 			  	<center>
-			  		<a><h4><strong>CONTROLE DE CAÇAMBAS <br> EM VIAS PÚBLICAS</strong></h4>
+			  		<a><h4><span id="bold">CONTROLE DE CAÇAMBAS <br> EM VIAS PÚBLICAS</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto3.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
 			  <div class="col-md-4" style="margin-top:35px;">
 			  	<center>
-			  		<a><h4><strong>CONSULTORIA EM<BR> MOBILIDADE URBANA</strong></h4>
+			  		<a><h4><span id="bold">CONSULTORIA EM<BR> MOBILIDADE URBANA</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto2.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 35px;">
 			  	<center>
-			  		<a><h4><strong>CONSULTORIA EM<BR> TRÂNSITO E TRÁFEGO</strong></h4>
+			  		<a><h4><span id="bold">CONSULTORIA EM<BR> TRÂNSITO E TRÁFEGO</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto1.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
 			  <div class="col-md-4" style="margin-top: 35px;">
 			  	<center>
-			  		<a><h4><strong>GESTÃO E CONTROLE DE<br> PLACAS DE TRÂNSITO</strong></h4>
+			  		<a><h4><span id="bold">GESTÃO E CONTROLE DE<br> PLACAS DE TRÂNSITO</span></h4>
 			  		<img src="<?php echo base_url('includes/imgs/app/produto.png'); ?>" alt="..."></a>
 			  	</center>
 			  </div>
@@ -268,12 +265,12 @@
 		<div id="timob" class="item6">
 			<img src="<?php echo base_url('includes/imgs/app/fundocara.png'); ?>" alt="...">
 			<div id="conteudoTexto">
-				<h3><strong>TI.MOB TECNOLOGIA <br>E SOLUÇÕES EM MOBILIDADE </strong></h3>
-				<h4>A <strong>TI.MOB</strong> busca através de seus profissionais qualificados e projetos inovadores, transformar a vida do cidadão, levando tecnologia e modernidade ao seu dia-a-dia sem perder a simplicidade e facilidade. </h4>
+				<h3><span id="bold">TI.MOB TECNOLOGIA <br>E SOLUÇÕES EM MOBILIDADE </span></h3>
+				<h4>A <span id="bold">TI.MOB</span> busca através de seus profissionais qualificados e projetos inovadores, transformar a vida do cidadão, levando tecnologia e modernidade ao seu dia-a-dia sem perder a simplicidade e facilidade. </h4>
 				<h4>A empresa fundada em 2011 é referência nacional em tecnologia, sempre em sintonia com as tendências e evoluções do mundo moderno.</h4>
 				<h4>Mesmo sendo uma empresa jovem, seus sócios diretores possuem mais de 15 anos de experiência na gestão de projetos, processos, tecnologia, canais de venda e distribuição atuando em multinacionais nos setores de telecomunicações, tecnologia e saúde.</h4>
-				<h4>Pensou em tecnologia, pensou <strong>TI.MOB!</strong></h4>
-				<h4><strong>TI.MOB Tecnologia e Mobilidade a serviço do cidadão.</strong></h4>
+				<h4>Pensou em tecnologia, pensou <span id="bold">TI.MOB!</span></h4>
+				<h4><span id="bold">TI.MOB Tecnologia e Mobilidade a serviço do cidadão.</span></h4>
 			</div>
 		</div>
 		<div id="clientes" class="item8">
@@ -307,6 +304,15 @@
 				  	</a>
 			  	</center>
 			  </div>
+			  <div class="col-md-3">
+			  	<center>
+				  	<a><div class="titutloCliente"><h3>Ouro Preto</h3></div>
+				  		<div class="imgClientes">
+				  		<img src="<?php echo base_url('includes/imgs/app/op.png'); ?>" alt="...">
+				  		</div>
+				  	</a>
+			  	</center>
+			  </div>
 			</div>
 			<div class="row">
 			  <h4>São Paulo:</h4>		
@@ -322,14 +328,14 @@
 			</div>
 		</div>
 		<div id="noticias" class="item7">
-			<h2><strong>TI.MOB EM DESTAQUE NA MÍDIA</strong></h2>
+			<h2><span id="bold">TI.MOB EM DESTAQUE NA MÍDIA</span></h2>
 			<div class="row">
 			  <div class="col-md-3">
 			  	<div class="content">
 			  		<a>
 				  		<center>
 				  			<img src="<?php echo base_url('includes/imgs/app/em.jpg'); ?>" alt="">
-				  			<h4><strong>ESTADO DE MINAS</strong></h4>
+				  			<h4><span id="bold">ESTADO DE MINAS</span></h4>
 				  			<h6>20/11/2014</h6>
 				  		</center>
 				  		<h6>Jornal Estado de Minas publica notícia sobre o rotativo digital e tem como referência Ti.Mob.</h6>
@@ -342,7 +348,7 @@
 			  		<a>
 				  		<center>
 				  			<img src="<?php echo base_url('includes/imgs/app/hoje.jpg'); ?>" alt="">
-				  			<h4><strong>HOJE EM DIA</strong></h4>
+				  			<h4><span id="bold">HOJE EM DIA</span></h4>
 				  			<h6>25/11/2014</h6>
 				  		</center>
 				  		<h6>Jornal Hoje em Dia publica notícia sobre o rotativo digital e tem como referência Ti.Mob.</h6>
@@ -355,7 +361,7 @@
 			  		<a>
 				  		<center>
 				  			<img src="<?php echo base_url('includes/imgs/app/sebrae.jpg'); ?>" alt="">
-				  			<h4><strong>SEBRAE-MG</strong></h4>
+				  			<h4><span id="bold">SEBRAE-MG</span></h4>
 				  			<h6>20/11/2014</h6>
 				  		</center>
 				  		<h6>Jornal Sebrae-MG publica notícia sobre o rotativo digital e tem como referência Ti.Mob.</h6>
@@ -368,7 +374,7 @@
 			  		<a>
 				  		<center>
 				  			<img src="<?php echo base_url('includes/imgs/app/diario.jpg'); ?>" alt="">
-				  			<h4><strong>DIÁRIO DO COMÉRCIO</strong></h4>
+				  			<h4><span id="bold">DIÁRIO DO COMÉRCIO</span></h4>
 				  			<h6>28/11/2014</h6>
 				  		</center>
 				  		<h6>Jornal Diario do Comercio publica notícia sobre o rotativo digital e tem como referência Ti.Mob.</h6>
@@ -380,13 +386,13 @@
 		</div>
 		<hr>
 		<div id="mensagem" class="itemMensagem">
-			<h2><strong>ENTÃO, VAMOS TOMAR UM CAFÉ!?</strong></h2>
+			<h2><span id="bold">ENTÃO, VAMOS TOMAR UM CAFÉ!?</span></h2>
 					<h4>Gostou de nossa solução? Tem alguma dúvida ou necessita de um projeto sob medida? Entre em contato e lhe retornaremos para esclarecer dúvidas ou agendar uma visita.</h4>
 
 					<div class="row">
 						<div class="col-md-8">
 							<div class="row">
-								<div class="col-md-12"><h3><strong><small>FALE</small> <p>CONOSCO</p></strong></h3></div>
+								<div class="col-md-12"><h3><span id="bold"><small>FALE</small> <p>CONOSCO</p></span></h3></div>
 							</div>
 
 							<form id="formMensagem">
@@ -461,7 +467,7 @@
 	            tinymce.init({
 	            selector: "textarea#txtMensagem",
 	            language : 'pt_BR',
-	            width: 690,
+	            width: 715,
 	            height: 100,
 	            plugins: [
 	             "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",

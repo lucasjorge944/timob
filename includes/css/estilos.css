@@ -1,11 +1,11 @@
-body{padding:0;}
-.topBar{height:30px;background-color:#263683;padding-top:4px;padding-right:12%;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+body{padding:0;font-family:"open_sansregular";}
+.topBar{height:30px;background-color:#263683;padding-top:4px;padding-right:12%;}
 .topBar ul{float:right;color:white;}
 .topBar li{display:inline-block;border-right-style:solid;border-right-width:2px;border-right-color:white;padding-right:10px;padding-left:5px;}
 .topBar li:last-child{border-right-style:none;border-right-width:none;border-right-color:none;}
 .topBar a{text-decoration:none;color:white;font-size:14px;}
 .topBar a:hover{color:white;}
-.menuBar{height:85px;padding-left:10%;box-shadow:0.5px 0.5px 3px 0.5px #B9B9B9;background-color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;width:99.7%;}
+.menuBar{height:85px;padding-left:10%;box-shadow:0.5px 0.5px 3px 0.5px #B9B9B9;background-color:white;font-family:"open_sansbold";}
 #menuLogo{display:none;}
 #textoLink1:hover{background-color:#263683;border-radius:50px 0 0 50px;color:white;}
 #textoLink:hover{background-color:#263683;color:white;}
@@ -15,29 +15,33 @@ body{padding:0;}
 #btnDescer{opacity:0.5;border-color:#263683;width:50px;height:45px;color:white;font-size:20px;border-radius:100%;margin-left:46%;position:absolute;z-index:100000;background-color:#263683;transition:1s;}
 #btnDescer:hover{opacity:1;background-color:#afb517;color:#263683; border-color: #afb157;}
 .rotativodigi, .produtos, .timob, .clientes, .noticias, .usuario, .municipio, .contato, .funciona{cursor:pointer;}
-.preItem{padding-left:0%;padding-right:10%;padding-top:50px;padding-bottom: 70px;color:#263683;text-align:justify;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.preItem{padding-left:0%;padding-right:10%;padding-top:50px;padding-bottom: 70px;color:#263683;text-align:justify;}
+.preItem{font-family:"open_sansregular"}
+.preItem h1{font-family:"open_sansbold"}
+.preItem h3{font-family:"open_sansbold"}
 #cidadeInteligente{width: 100%;}
 h4#texto{margin-top:50px;margin-bottom:50px;}
 #fundoCidade{width:100%;height:150px;position:absolute;opacity:0.2;margin-top:370px;}
-#conheca{background-color:#263683;color:white;border-radius: 20px;}
+#conheca{background-color:#263683;color:white;border-radius: 20px;font-family:"open_sansbold"}
 #btnProximo{font-size:25px; cursor:pointer;}
-.item1{padding-bottom:100px;padding-top: 200px;color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item1{padding-bottom:100px;padding-top: 200px;color:#263683;text-align:justify;padding-left:10%;padding-right:10%}
+#bold{font-family:"open_sansbold"}
 .item1 h1{font-size:40px;}
-.item1 h4{font-size:22px;padding-top:40px;padding-left:10%;padding-right:10%}
+.item1 h4{font-size:22px;padding-top:40px;}
 #fundoRotativo{position:absolute;width:35%;opacity:1;margin-top:12%;margin-left:9%;}
 #imgRot{margin-bottom: 50px;}
-.item2{padding-left:10%;padding-top:100px;padding-bottom:100px;padding-right:10%;background-color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item2{padding-left:10%;padding-top:100px;padding-bottom:100px;padding-right:10%;background-color:#263683;}
 .item2 h2{color:white;margin-bottom:50px;}
 .item2 h5{color:white;}
 .item2 h3{margin-top:60px;color:white;font-size:30px;}
 #quest{float:left;margin-top:15px;margin-right:8px;}
 #logoRotativo{margin-top: 60px;}
-.item3{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;color:#263683;}
+.item3{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;text-align:justify;color:#263683;}
 .item3 h5{text-align:center;}
 .item3 h6{text-align:center;padding-left:20%;padding-right:20%;}
 .item3 img{width:100%;}
 .imgContainer{width:200px;height:200px; }
-.item4{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;background-color:#263683;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;}
+.item4{padding-top:120px;padding-bottom:120px;padding-left:10%;padding-right:10%;background-color:#263683;text-align:justify;}
 .item4 h2{color:white;}
 .item4 h5{text-align:center;color:white;}
 .item4 h6{text-align:center;padding-left:20%;padding-right:20%;color:white;}
@@ -64,7 +68,7 @@ h4#texto{margin-top:50px;margin-bottom:50px;}
 .item7 img{width:80%;box-shadow:2px 2px 2px 2px #B9B9B9;}
 .item7 a{text-decoration:none;}
 .item7 button{margin-bottom:50px;}
-.item8{background-color:#263683;padding-left:8%;padding-right:8%;padding-top:20px;padding-bottom:20px;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;background-image: url("http://localhost:8080/AptanaWS/timob/includes/imgs/app/cidadefundo.jpg");background-size: 100% 100%;background-repeat: no-repeat;background-attachment: fixed;}
+.item8{background-color:#263683;padding-left:8%;padding-right:8%;padding-top:20px;padding-bottom:20px;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:justify;background-image: url("http://dev.timob.com.br/timob/includes/imgs/app/cidadefundo.jpg");background-size: 100% 100%;background-repeat: no-repeat;background-attachment: fixed;}
 .item8 h2{color:white;margin-bottom:50px;border:2px solid black;background-color:black;border-radius:20px;opacity:1;}
 .item8 h3{color:white;font-size:20px;}
 .item8 h4{color:white;font-size:30px;}
