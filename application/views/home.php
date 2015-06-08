@@ -153,9 +153,10 @@
 			  	<h2>
 			 		<span id="bold">COMO FUNCIONA:</span>
 				</h2>
-				<iframe width="100%" height="315px"
-				src="https://www.youtube.com/embed/XGSy3_Czz8k">
-				</iframe> 
+				<video controls>
+				  <source src="<?php echo base_url('includes/video/rotativo_digital.webm'); ?>" type="video/webm">
+				Your browser does not support the video tag.
+				</video>
 			  </div>
 			  <div class="col-md-6" style="padding-top: 75px;">
 			  	<center><h3>Conheça a solução inteligente de Rotativo Digital que a Ti.mob desenvolveu.</h3>
